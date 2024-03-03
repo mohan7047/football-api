@@ -4,7 +4,7 @@ const cors = require("cors");
 
 mongoose
   .connect(
-    "MONGODB_URI=mongodb+srv://mohan:tRST0czGmhqopIhE@cluster0.qo4xier.mongodb.net/assignment?retryWrites=true&w=majority",
+    "mongodb+srv://mohan:tRST0czGmhqopIhE@cluster0.qo4xier.mongodb.net/assignment?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connected to MongoDB"))
